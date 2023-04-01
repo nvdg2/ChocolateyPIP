@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>pictureinpicture</id>
+    <version>1.0</version>
+    <authors>Niels Van De Ginste</authors>
+    <owners>Niels Van De Ginste</owners>
+    <summary>Install PIP-tool</summary>
+    <description>Installs PIP-tool via Chocolatey</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
